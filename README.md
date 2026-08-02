@@ -7,7 +7,7 @@
 **Entry Point**: `not detected`  
 **Codebase**: 2 source files, 575 lines of production‑ready code  
 **Architecture**: Object‑oriented  
-**Key Components**: 2 class(es): CarFlyerGenerator, SVGCarGenerator, 11 function(s): __init__, create_racing_car, create_minimal_car, create_car_showcase_flyer, create_car_with_road
+**Key Components**: 2 class(es): SVGCarGenerator, CarFlyerGenerator, 11 function(s): generate_all_cars, create_car_dealership_flyer, create_racing_car, create_sedan_car, create_minimal_car
 
 This project contains 2 class(es) and 11 function(s).
 
@@ -49,24 +49,23 @@ I am open to conversations about how I can apply this mindset to your organisati
 ## 💡 Benefits & Ecosystem Integration
 
 ### ✨ Key Benefits
-- Enhanced Data Privacy: Protects sensitive user data with rigorous encryption and access controls.
+- Data‑Driven Decisions: Provides real‑time, accurate insights that inform strategic direction.
+- Global Reach: Enables multi‑region, multi‑language deployments for international audiences.
+- Continuous Deployment: Enables safe, automated, and frequent releases to production.
+- Reduced Technical Debt: Maintains clean, modular, and well‑tested codebases that are easy to extend.
+- Revenue Acceleration: Directly impacts top‑line growth by enabling faster time‑to‑market and personalisation.
+- Real‑Time Monitoring & Observability: Provides deep system visibility, enabling proactive issue resolution.
 - Scalability: Designed to handle growing volumes without proportional cost increases.
-- Resilience Against Failures: Builds redundancy and fault‑tolerance, so systems never stop.
-- Rapid Prototyping Capabilities: Enables quick validation of ideas, reducing cost of failure.
-- Reduced Churn: Proactively identifies and addresses factors that cause customer attrition.
-- Enhanced Security Posture: Builds robust threat defence and data privacy into the application architecture.
-- Cross‑Functional Collaboration: Bridges gaps between business, design, and engineering teams.
-- Market Agility: Enables rapid iteration and deployment of new features.
+- Operational Efficiency: Reduces manual effort by 60‑80%, freeing up talent for higher‑value work.
 
 ### 🔗 Integrations
 - Host Operating System (files, environment, processes)
 
 ## 📈 Scale to SaaS & Beyond
 
-- Multi‑Tenancy: Extend to support multiple customers with isolated data and custom configurations.
-- Cloud Deployment: Containerise with Docker and deploy to AWS, GCP, or Azure for global availability.
-- Analytics Dashboard: Add real‑time monitoring and business intelligence dashboards.
 - CI/CD Pipeline: Integrate GitHub Actions to automate testing and deployment with every commit.
+- Event‑Driven Architecture: Integrate with message queues (Kafka, RabbitMQ) for asynchronous workflows.
+- Analytics Dashboard: Add real‑time monitoring and business intelligence dashboards.
 
 ## 🤖 AI Tools & Integrations (A–Z)
 
@@ -127,6 +126,24 @@ This project is designed to integrate seamlessly with a wide range of AI tools a
 | **ZenML** | MLOps framework for reproducible pipelines. |
 
 *This is a living list – new tools are constantly emerging. The modular design of this project makes it easy to plug in any AI service.*
+## 💻 AI Code Generation Tools (Free & Paid)
+
+To accelerate development, you can integrate these AI tools for code generation, autocompletion, and documentation. Pricing models are noted below.
+
+| Tool | Description | Pricing |
+| :--- | :--- | :--- |
+| **GitHub Copilot** | AI pair programmer. Free for open-source and verified students; paid plans from $10/month. | Freemium |
+| **Tabnine** | AI code completion for multiple languages. Free tier available; paid Pro from $12/month. | Freemium |
+| **Codeium** | AI-powered autocomplete and chat. Completely free for individual developers. | Free |
+| **Cursor** | AI-first code editor with built-in Copilot-like features. Free tier available; paid plans start at $20/month. | Freemium |
+| **Amazon CodeWhisperer** | AWS service for real‑time code suggestions. Free tier included; paid with AWS subscription. | Freemium |
+| **Replit Ghostwriter** | AI assistant in Replit's online IDE. Free tier included; paid plans from $7/month. | Freemium |
+| **Bito AI** | Code generation and explanation. Free for individuals; paid team plans. | Freemium |
+| **Sourcegraph Cody** | AI assistant for code understanding and generation. Free for individuals and open-source; paid for enterprise. | Freemium |
+| **Mintlify** | AI-powered documentation generator. Free tier; paid plans for teams. | Freemium |
+| **MightyMeld** | AI for React component generation. Free trial; paid plans from $15/month. | Freemium |
+
+*Most tools offer free tiers – perfect for personal projects and learning. Paid plans unlock higher limits and team features.*
 
 ## 📁 Project Structure
 ## 🚀 Full Program Guide (How to Run)
